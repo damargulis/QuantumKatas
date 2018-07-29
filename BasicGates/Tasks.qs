@@ -111,6 +111,7 @@ namespace Quantum.Kata.BasicGates
         body
         {
             // ...
+            S(q);
         }
         adjoint auto;
     }
