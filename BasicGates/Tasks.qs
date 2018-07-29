@@ -49,6 +49,7 @@ namespace Quantum.Kata.BasicGates
             // Then rebuild the project and rerun the tests - T11_StateFlip_Test should now pass!
             
             // ...
+            X(q);
         }
         adjoint self;
     }
@@ -66,6 +67,7 @@ namespace Quantum.Kata.BasicGates
         body
         {
             // ...
+            H(q);
         }
         adjoint self;
     }
@@ -78,6 +80,7 @@ namespace Quantum.Kata.BasicGates
         body
         {
             // ...
+            Z(q);
         }
         adjoint self;
     }
@@ -95,6 +98,7 @@ namespace Quantum.Kata.BasicGates
         body
         {
             // ...
+            Ry(2.0 * alpha, q);
         }
         adjoint auto;
     }
